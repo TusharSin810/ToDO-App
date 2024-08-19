@@ -1,0 +1,77 @@
+body{
+      background-image: linear-gradient( -65deg, #C1D8C3, #6A9C89);
+    }
+
+.btn{
+    margin-left: 50px;
+    background-color: transparent;
+    border: none;
+}
+.bin{
+    font-size: 15px;
+    color: #CD5C08;
+}
+.addButton{
+    margin-left: 10px;
+   background-color: #CD5C08;
+   border-radius: 50%;
+   border: none;
+   color: wheat;
+   font-size: 20px;
+}
+
+.addButton:hover{
+    background-color: #cd5d08cc;
+    color: wheat;
+    cursor: pointer;
+}
+
+.in{
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 16px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+
+#todos{
+    background: #FFF5E4;
+    min-width: 500px;
+    border-radius: 30px;
+    margin: 30px;
+    padding: 40px;
+}
+
+.display{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+}
+.strikethrough{
+    text-decoration: line-through #CD5C08;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-image: linear-gradient(45deg,#CD5C08,#FFF5E4,#C1D8C3,#6A9C89);
+    background-clip: text;
+    color: transparent;
+    background-size: 480px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 2.5rem;
+    cursor:default;
+}
+
+.divEl{
+    margin-bottom: 10px;
+}
+.spanclass{
+    cursor: pointer;
+}
